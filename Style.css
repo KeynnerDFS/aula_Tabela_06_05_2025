@@ -1,0 +1,12 @@
+table{
+    border: 1px solid black;
+
+    /* Se tiver bordas repetidas elas irão colapsar e se juntar*/
+    border-collapse: collapse; 
+}
+th,td{
+    border: 1px solid black;
+
+    /* Referente ao espaçamento interno da tabela */
+    padding: 8px;
+}
